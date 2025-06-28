@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "learnai"
+  site-url: "https://roshkjr.github.io/learnai"
+  description: "Practice of deep learning techniques"
+  repo-branch: main
+  repo-url: "https://github.com/roshkjr/learnai"

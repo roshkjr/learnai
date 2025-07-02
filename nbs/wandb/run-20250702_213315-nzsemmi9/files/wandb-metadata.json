@@ -1,14 +1,14 @@
 {
   "os": "Linux-4.18.0-513.24.1.el8_9.x86_64-x86_64-with-glibc2.28",
   "python": "CPython 3.11.5",
-  "startedAt": "2025-06-21T07:06:53.084005Z",
+  "startedAt": "2025-07-02T20:33:17.451866Z",
   "program": "<python with no main file>",
   "git": {
-    "remote": "https://github.com/roshkjr/DeepLearning.git",
-    "commit": "3d2cab3b301cf1c9fdbc7a1cf772ea6783b31bbb"
+    "remote": "https://github.com/roshkjr/learnai.git",
+    "commit": "a5930f8f834f549b2893cedd4437995f9832649c"
   },
   "email": "roshkjr@gmail.com",
-  "root": "/hps/software/users/pdbe/roshan/DeepLearning",
+  "root": "/hps/software/users/pdbe/roshan/learnai/nbs",
   "host": "codon-gpu-006.ebi.ac.uk",
   "executable": "/hps/software/users/pdbe/roshan/llm/llm_venv/bin/python",
   "cpu_count": 48,
@@ -34,7 +34,7 @@
       "memoryTotal": "85899345920",
       "cudaCores": 6912,
       "architecture": "Ampere",
-      "uuid": "GPU-83e59f02-7d14-3cea-f091-948b173f3c69"
+      "uuid": "GPU-5cf04716-ba6f-4464-5e14-ef2e59535124"
     }
   ],
   "slurm": {
@@ -45,19 +45,19 @@
     "gtids": "0",
     "job_account": "sameer",
     "job_cpus_per_node": "8",
-    "job_end_time": "1750514003",
+    "job_end_time": "1751515868",
     "job_gid": "57",
-    "job_gpus": "0",
-    "job_id": "13966708",
+    "job_gpus": "1",
+    "job_id": "20533055",
     "job_name": "sys/dashboard/sys/jupyter",
     "job_nodelist": "codon-gpu-006",
     "job_num_nodes": "1",
     "job_partition": "gpu",
     "job_qos": "normal",
-    "job_start_time": "1750485203",
+    "job_start_time": "1751479868",
     "job_uid": "10655",
     "job_user": "roshan",
-    "jobid": "13966708",
+    "jobid": "20533055",
     "localid": "0",
     "mem_per_node": "15360",
     "nnodes": "1",
@@ -69,7 +69,7 @@
     "procid": "0",
     "submit_dir": "/var/www/ood/apps/sys/dashboard",
     "submit_host": "ihpc.ebi.ac.uk",
-    "task_pid": "2785931",
+    "task_pid": "3371995",
     "tasks_per_node": "1",
     "topology_addr": "main.dell.hl-12-21.codon-gpu-006",
     "topology_addr_pattern": "switch.switch.switch.node"

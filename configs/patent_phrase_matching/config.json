@@ -1,0 +1,19 @@
+{
+    "per_device_train_batch_size":8,
+    "per_device_eval_batch_size":8,
+    "wandb_project":"patent_phrase_matching",
+    "wandb_job_type":"Seq2Class",
+    "output_dir":"patent_phrase_matching",
+    "num_labels":1,
+    "lr_scheduler_type": "cosine",
+    "eval_strategy": "epoch",
+    "model_name":"microsoft/deberta-v3-small",
+    "batch_size": 128,
+    "epochs": 3,
+    "text_column":"text",
+    "learning_rate":5e-5,
+    "warmup_ratio":0.1,
+    "optimizer": "adam",
+    "num_train_epochs": 3,
+    "weight_decay": 0.01
+}
